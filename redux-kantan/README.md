@@ -15,8 +15,14 @@
 
 3. Connect to redux store from component.
 
-- Using the two hooks 
+- Use  packages `react-redux` to connect redux and react 
 
+
+```js
+    <Provider>
+        <App/>
+    </Provider>
+```
 
 
 
