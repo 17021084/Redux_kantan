@@ -15,8 +15,9 @@
 
 3. Connect to redux store from component.
 
-- Use  packages `react-redux` to connect redux and react 
 
+4. Packages 
+- Use  packages `react-redux` to connect redux and react 
 
 ```js
     <Provider>
@@ -24,5 +25,6 @@
     </Provider>
 ```
 
+- Use packages `casual` to generated data randomly (or if `casual`doesnt work ,Use  `casual-browserify` instead )
 
 

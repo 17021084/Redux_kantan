@@ -15,7 +15,7 @@ const hobbyReducer = (state = initState, action) => {
     case "ADD_HOBBY": {
       const newList = [...state];
       newList.push(action.payload);
-      return newList;
+      return newList;  
     }
     default:
       return state;
@@ -88,3 +88,4 @@ store.subscribe(() => {
   localStorage.setItem('hobby_list', JSON.stringify(newHobby));
 
 });
+ 
