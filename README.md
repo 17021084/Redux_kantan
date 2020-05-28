@@ -12,8 +12,8 @@ Redux  had 3 importain Things :
     * HTML
 
 2. Action.
-    * click button
-    * submit form ...
+    * Action type ( event ...)
+    * Payload ( Data.. )
 
 3. Store.
     * Dispatcher 
