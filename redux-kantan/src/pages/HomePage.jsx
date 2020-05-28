@@ -40,6 +40,7 @@ const HomePage = (props) => {
     const action = addNewHobby(newHobby);
     dispatch(action);
   }
+  
   function onHobbyOnClick (hobby){
     
     const action = setActiveHobby(hobby)

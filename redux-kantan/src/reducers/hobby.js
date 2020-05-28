@@ -25,6 +25,10 @@ const hobbyReducer = (state = initialState, action) => {
         ...state.list.slice(index + 1),
       ];
 
+      //other way but splice doesnt mutatel address object
+      // const newList= [...state.list];
+      // newList.splice(index,1, newHobby)
+
       return {
         ...state,
         list: newList,
