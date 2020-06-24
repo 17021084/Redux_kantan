@@ -12,3 +12,11 @@ export const setActiveHobby = (hobby) => {
     payload: hobby,
   };
 };
+
+
+// Action is object, It have partern is {
+//  type : 'action_name'
+//  payload : data
+// }
+
+// Dispatch (action)  ; Push action into reducer

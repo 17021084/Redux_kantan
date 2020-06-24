@@ -2,6 +2,10 @@ const initialState = {
   list: [],
 };
 
+// Reducer will recevie 2 props which is State and Action then process give new state
+// In the first time, we have to pass initial state
+
+
 const hobbyReducer = (state = initialState, action) => {
   switch (action.type) {
     case "ADD_HOBBY": {
@@ -25,7 +29,7 @@ const hobbyReducer = (state = initialState, action) => {
         ...state.list.slice(index + 1),
       ];
 
-      //other way but splice doesnt mutatel address object
+      //other way but splice doesnt mutate address object
       // const newList= [...state.list];
       // newList.splice(index,1, newHobby)
 

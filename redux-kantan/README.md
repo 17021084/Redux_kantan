@@ -2,6 +2,7 @@
 
 - useSelector() 
 - useDispatch()
+- 
 
 1. Setup redux store 
 
@@ -19,6 +20,7 @@
 4. Packages 
 - Use  packages `react-redux` to connect redux and react 
 
+- Set up provider in index.js
 ```js
     <Provider>
         <App/>
